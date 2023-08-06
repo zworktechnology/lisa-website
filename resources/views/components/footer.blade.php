@@ -6,8 +6,8 @@
                 <img class="w-auto h-20" src="images\Lisa Final Logo File_page-0001.jpg" alt="">
             </a>
 
-            <p class="max-w-md mx-auto mt-4 text-gray-700 text-lg dark:text-gray-400">Revolutionize the Medical Textile
-                Industry with seamless prospects.</p>
+            <p class="max-w-md mx-auto mt-4 text-gray-700 text-lg dark:text-gray-400">Revolutionising the Medical Textile
+                Industry with seamless prospects !</p>
 
 
         </div>

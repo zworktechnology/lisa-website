@@ -29,44 +29,22 @@
                             World's first ultra-thin Anion pads with high level hygiene.
 
                         </p>
-                        <ul class="flex flex-wrap items-center">
-                            <li>
-                                <a href="mailto:lisahealthcare01@gmail.com"
-                                    class="
-                      py-4
-                      px-6
-                      sm:px-10
-                      lg:px-8
-                      xl:px-10
-                      inline-flex
-                      items-center
-                      justify-center
-                      text-center text-white text-base
-                      bg-teal-600
-                      hover:bg-opacity-90
-                      font-normal
-                      rounded-lg
-                    ">
-                                    Get Started
-                                </a>
-                            </li>
 
-                        </ul>
                         <div class="clients pt-16">
 
-                            <div class="flex items-center">
-                                <div class="w-full py-3 mr-4">
+                            <div class="flex items-center thumb-img">
+                                <a href='images\Lisa - L - Angled Mockup.jpg' class="w-full py-3 mr-4">
                                     <img class='rounded-full transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
                                         src="images\Lisa - L - Angled Mockup.jpg" alt="ayroui" />
-                                </div>
-                                <div class="w-full py-3 mr-4">
+                                </a>
+                                <a href='images\Lisa - XL - Angled Mockup.jpg' class="w-full py-3 mr-4">
                                     <img class='rounded-full transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
                                         src="images\Lisa - XL - Angled Mockup.jpg" alt="graygrids" />
-                                </div>
-                                <div class="w-full py-3 mr-4">
+                                </a>
+                                <a href='images\Lisa - XXL - Front Mockup.jpg' class="w-full py-3 mr-4">
                                     <img class='rounded-full transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
                                         src="images\Lisa - XXL - Front Mockup.jpg" alt="uideck" />
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -74,8 +52,8 @@
                 <div class="hidden lg:block lg:w-1/12 px-4"></div>
                 <div class="w-full lg:w-6/12 px-4">
                     <div class="lg:text-right lg:ml-auto">
-                        <div class="relative inline-block z-10 pt-11 lg:pt-0">
-                            <img src="images\Lisa - XL - Angled Mockup.jpg" alt="hero"
+                        <div class="relative inline-block z-10 pt-11 lg:pt-0 thumb-previewer">
+                            <img src="images\Lisa - L - Angled Mockup.jpg" alt="hero"
                                 class="max-w-full lg:ml-auto rounded-tl-[100px] rounded-br-[100px]" />
                             <span class="absolute -left-8 -bottom-8 z-[-1]">
                                 <svg width="93" height="93" viewBox="0 0 93 93" fill="none"
@@ -522,7 +500,7 @@
                         </div>
                         <div class="flex-grow">
                             <p class="leading-relaxed text-base">We believe that menstrual care must not be a burden or
-                                restriction. So, we revolutionized our pads to be sleek as your eyeliner, offering you
+                                restriction. So, we revolutionised our pads to be sleek as your eyeliner, offering you
                                 maximum discretion and comfort. Enjoy seamless protection without feeling chained to the
                                 floor.</p>
 
@@ -599,7 +577,7 @@
     <div id='faq' class="p-8">
         <div class="bg-white p-4 rounded-lg shadow-xl py-20 mt-12">
             <h4 class="text-4xl font-bold text-gray-800 tracking-widest uppercase text-center">FAQ</h4>
-            <p class="text-center text-gray-600 text-sm mt-2">Here are some of the frequently asked questions</p>
+            <p class="text-center text-gray-600 text-sm mt-2"> Some of our customers FAQ's</p>
             <div class="space-y-12 px-2 xl:px-16 mt-12">
                 <div class="mt-4 flex">
                     <div>
@@ -785,11 +763,11 @@
             }
 
             20% {
-                content: "Mission";
+                content: "Vision";
             }
 
             40% {
-                content: "Goal";
+                content: "Vision";
             }
 
             60% {
@@ -797,11 +775,11 @@
             }
 
             80% {
-                content: "Mission";
+                content: "Vision";
             }
 
             100% {
-                content: "Goal";
+                content: "Vision";
             }
         }
     </style>
@@ -817,7 +795,7 @@
                         <span id="spin"
                             class="text-transparent font-normal bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300 "></span>
                     </h1>
-                    <p class="text-gray-400 md:text-xl text-xl px-18">We wish to revolutionize the Medical Textile
+                    <p class="text-gray-400 md:text-xl text-xl px-18">We wish to Revolutionising the Medical Textile
                         Industry with seamless prospects. As our foundation, we have started our Voyage in Healthcare and
                         Hygiene Products. With our own RND team for each sector, we will grow more stones to add a layer to
                         our genuine success.</p>
@@ -835,7 +813,7 @@
 
         <div class="bg-gray-100">
             <div class="container mx-auto flex flex-col items-center py-12 sm:py-24">
-                <div class="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
+                <div class="w-11/12 sm:w-3/4 lg:flex justify-center items-center flex-col mx-auto mb-5 sm:mb-10">
                     <h1
                         class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10">
                         Our
@@ -843,19 +821,26 @@
                         <span class="text-indigo-700">Mission</span>
 
                     </h1>
-                    <p class="mt-5 sm:mt-10 lg:w-10/12 text-gray-600 font-normal text-center text-sm sm:text-lg">A
-                        Currently, we are doing the necessary RND for sanitary napkins. We wanted to make "your days" easy
-                        as our first step. We are diving deep and finding appropriate solutions and materials to cope with
-                        our projects. </p>
 
-                    <p class="mt-5 sm:mt-10 lg:w-10/12 text-gray-600 font-normal text-center text-sm sm:text-lg">A
-                        With our Anion Sanitary Napkins, you will experience a whole new level of comfort and safety for you
-                        and the environment. We are working towards individual disposable bags along with Sanitary Napkins.
-                    </p>
+                    <ul class='list-disc'>
+                        <li class="mt-5 sm:mt-10  text-gray-600 font-normal text-sm sm:text-lg">
+                            Currently, we are doing the necessary RND for sanitary napkins. We wanted to make "your days"
+                            easy
+                            as our first step. We are diving deep and finding appropriate solutions and materials to cope
+                            with
+                            our projects. </li>
 
-                    <p class="mt-5 sm:mt-10 lg:w-10/12 text-gray-600 font-normal text-center text-sm sm:text-lg">A
-                        As you read this, we are undertaking a new project. We build, break, bury, and burn to validate the
-                        benefits. Let Lisa take care of you!</p>
+                        <li class="mt-5 sm:mt-10  text-gray-600 font-normal  text-sm sm:text-lg">
+                            With our Anion Sanitary Napkins, you will experience a whole new level of comfort and safety for
+                            you
+                            and the environment. We are working towards individual disposable bags along with Sanitary
+                            Napkins.
+                        </li>
+
+                        <li class="mt-5 sm:mt-10  text-gray-600 font-normal text-sm sm:text-lg">As
+                            you read this, we are undertaking a new project. We build, break, bury, and burn to validate the
+                            benefits. Let Lisa take care of you!</li>
+                    </ul>
                 </div>
 
             </div>
@@ -863,10 +848,10 @@
     </dh-component>
 
     <!-- component -->
-    <div id='contact' class="py-4 bg-black text-white">
+    <div id='contact' class="py-4 bg-purple-500 text-white">
         <div class="container mx-auto flex flex-col md:flex-row my-12 md:my-10">
             <div class="flex flex-col w-full lg:w-2/5 p-8">
-                <p class="text-3xl md:text-5xl text-yellow-500 my-4 leading-relaxed md:leading-snug">Registered Address</p>
+                <p class="text-3xl md:text-5xl text-gray-50 my-4 leading-relaxed md:leading-snug">Registered Address</p>
                 <p class="font-sans text-sm md:text-lg my-2 md:my-4"><svg class="inline-block fill-current mr-2"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path
@@ -884,7 +869,7 @@
                             d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
                     </svg>+91 451 2454545</p> <br> <br>
 
-                <p class="text-3xl md:text-5xl text-yellow-500 my-4 leading-relaxed md:leading-snug">Trade Address</p>
+                <p class="text-3xl md:text-5xl text-gray-50 my-4 leading-relaxed md:leading-snug">Trade Address</p>
                 <p class="font-sans text-sm md:text-lg my-2 md:my-4"><svg class="inline-block fill-current mr-2"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path
@@ -914,4 +899,14 @@
     </div>
 
     <x-footer></x-footer>
+    <script>
+        jQuery(document).ready(function($) {
+
+            $('.thumb-img a').on("click", function(e) {
+                e.preventDefault();
+                $('.thumb-previewer img').attr("src", $(this).attr("href"));
+            });
+
+        });
+    </script>
 @endsection

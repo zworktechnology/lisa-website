@@ -41,9 +41,9 @@
                                     <img class='rounded-full transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
                                         src="images\Lisa - XL - Angled Mockup.jpg" alt="graygrids" />
                                 </a>
-                                <a href='images\Lisa - XXL - Front Mockup.jpg' class="w-full py-3 mr-4">
+                                <a href='images\Lisa - XXL - Angled Mockup.jpg' class="w-full py-3 mr-4">
                                     <img class='rounded-full transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'
-                                        src="images\Lisa - XXL - Front Mockup.jpg" alt="uideck" />
+                                        src="images\Lisa - XXL - Angled Mockup.jpg" alt="uideck" />
                                 </a>
                             </div>
                         </div>
@@ -848,7 +848,7 @@
     </dh-component>
 
     <!-- component -->
-    <div id='contact' class="py-4 bg-purple-500 text-white">
+    <div id='contact' class="py-4 text-white" style="background-color: #c7aed6">
         <div class="container mx-auto flex flex-col md:flex-row my-12 md:my-10">
             <div class="flex flex-col w-full lg:w-2/5 p-8">
                 <p class="text-3xl md:text-5xl text-gray-50 my-4 leading-relaxed md:leading-snug">Registered Address</p>

@@ -47,6 +47,31 @@
                                 </a>
                             </div>
                         </div>
+                        <h1
+                            class="
+                  text-dark
+                  font-bold
+                  text-4xl
+                  sm:text-[36px]
+                  lg:text-[30px]
+                  xl:text-[36px]
+                  leading-snug
+                  mb-3
+                  text-center
+                "style="padding-top: 10%;">
+                            Order now at Amazon<br />
+
+                        </h1>
+                        <div class="col-md-6 text-center ">
+                            <a href="https://www.amazon.in/l/27943762031?me=A1NVCYOOHM6H4P" target="_blank" style="text-decoration: none;">
+                                <button
+                                    style="width: 200px; height: 50px; border-radius: 10px; background-color: #c7aed6; color: #fff; border: none; font-weight: bold; font-size: 26px;">
+                                    Shop now
+                                </button>
+                            </a>
+                        </div>
+
+
                     </div>
                 </div>
                 <div class="hidden lg:block lg:w-1/12 px-4"></div>

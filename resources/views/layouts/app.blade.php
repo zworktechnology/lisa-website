@@ -12,6 +12,7 @@
         <link rel="stylesheet" href=" {{ asset('css/app.css') }} ">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
         <script src="{{asset('js/app.js')}} "></script>
+        <script defer src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
       
 

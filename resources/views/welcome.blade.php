@@ -1,8 +1,99 @@
 @extends('layouts.app')
 @section('content')
     <!-- component -->
+    <style>
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            filter: alpha(opacity=70);
+            -moz-opacity: 0.7;
+            -khtml-opacity: 0.7;
+            opacity: 0.7;
+            z-index: 100;
+            display: none;
+        }
+
+        .popup-content {
+            padding: 14px 10px;
+            line-height: 1.5;
+        }
+
+        .cnt223 a {
+            text-decoration: none;
+        }
+
+        .popup-onload {
+            margin: 0 auto;
+            display: none;
+            position: fixed;
+            z-index: 101;
+
+        }
+
+        .cnt223 {
+            width: 80%;
+            height: 90vh;
+            position: relative;
+            z-index: 103;
+            padding: 15px 35px;
+            border-radius: 5px;
+        }
+
+        .cnt223 p {
+            clear: both;
+            color: #555555;
+            /* text-align: justify; */
+        }
+
+        .cnt223 p a {
+            color: #d91900;
+            font-weight: bold;
+        }
+
+        .cnt223 .x {
+            float: right;
+            height: 35px;
+            left: 22px;
+            position: relative;
+            top: -25px;
+            width: 34px;
+        }
+
+        .cnt223 .x:hover {
+            cursor: pointer;
+        }
+    </style>
 
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <p> This page demonstrate a simple popup modal on page load. Refresh the page to see again popup notification. </p>
+
+    <div class='popup-onload flex items-center justify-center w-full'>
+        <div class='cnt223 bg-blue-100 mx-auto flex items-center justify-center shadow-2xl'>
+
+            <div class="popup-content">
+                <div class='flex justify-center mb-2'>
+                    <img src='images\Lisa Final Logo File_page-0001.jpg' class="img-responsive h-20 w-20 rounded-full" />
+                </div>
+
+                <h2 class='text-center text-2xl mb-8'>Welcome to Lisa!</h2>
+                <p class='text-xl'>Our Products are now in <span class='font-extrabold text-2xl'>Amazon</span></p>
+
+                <div class='flex justify-center py-4 md:flex-row flex-col md:space-x-5 space-x-0 md:space-y-0 space-y-5 '>
+                    <a href="https://www.amazon.in/l/27943762031?me=A1NVCYOOHM6H4P" target="_blank" class='text-center px-4 py-2 bg-indigo-500 hover:bg-indigo-800 transition hover:scale-105 text-white font-semibold text-lg rounded-md'>Shop Now</a>
+                    <a href='' class='px-4 py-2 bg-red-500 text-white font-semibold text-lg rounded-md text-center close'>Close</a>
+                </div>
+
+
+
+
+               
+            </div>
+        </div>
+    </div>
 
     <!-- ====== Hero Section Start -->
     <div id='home' class="relative pt-[120px] lg:pt-[150px] pb-[110px] bg-white">
@@ -63,7 +154,8 @@
 
                         </h1>
                         <div class="col-md-6 text-center ">
-                            <a href="https://www.amazon.in/l/27943762031?me=A1NVCYOOHM6H4P" target="_blank" style="text-decoration: none;">
+                            <a href="https://www.amazon.in/l/27943762031?me=A1NVCYOOHM6H4P" target="_blank"
+                                style="text-decoration: none;">
                                 <button
                                     style="width: 200px; height: 50px; border-radius: 10px; background-color: #c7aed6; color: #fff; border: none; font-weight: bold; font-size: 26px;">
                                     Shop now
@@ -932,6 +1024,24 @@
                 $('.thumb-previewer img').attr("src", $(this).attr("href"));
             });
 
+        });
+
+        $(function() {
+            var overlay = $('<div id="overlay"></div>');
+            overlay.show();
+            overlay.appendTo(document.body);
+            $('.popup-onload').show();
+            $('.close').click(function() {
+                $('.popup-onload').hide();
+                overlay.appendTo(document.body).remove();
+                return false;
+            });
+
+            $('.x').click(function() {
+                $('.popup').hide();
+                overlay.appendTo(document.body).remove();
+                return false;
+            });
         });
     </script>
 @endsection

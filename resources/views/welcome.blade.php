@@ -22,6 +22,12 @@
             line-height: 1.5;
         }
 
+        .custom-popup {
+            width: 50%;
+            height: 50%;
+            /* You can add other styles as needed */
+        }
+
         .cnt223 a {
             text-decoration: none;
         }
@@ -69,9 +75,32 @@
     </style>
 
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <p> This page demonstrate a simple popup modal on page load. Refresh the page to see again popup notification. </p>
+    {{-- <p> This page demonstrate a simple popup modal on page load. Refresh the page to see again popup notification. </p> --}}
+    {{-- <div style="position: fixed; bottom: 10%; right: 10%; width: 50%; height: 80%;">
+        <div class='popup-onload flex items-center justify-center w-full'>
+            <div class='cnt223 bg-blue-100 mx-auto flex items-center justify-center shadow-2xl'>
 
-    <div class='popup-onload flex items-center justify-center w-full'>
+                <div class="popup-content">
+                    <div class='flex justify-center mb-2'>
+                        <img src='images\Lisa Final Logo File_page-0001.jpg' class="img-responsive h-20 w-20 rounded-full" />
+                    </div>
+
+                    <h2 class='text-center text-2xl mb-8'>Welcome to Lisa!</h2>
+                    <p class='text-xl'>Our Products are now in <span class='font-extrabold text-2xl'>Amazon</span></p>
+
+                    <div
+                        class='flex justify-center py-4 md:flex-row flex-col md:space-x-5 space-x-0 md:space-y-0 space-y-5 '>
+                        <a href="https://www.amazon.in/l/27943762031?me=A1NVCYOOHM6H4P" target="_blank"
+                            class='text-center px-4 py-2 bg-indigo-500 hover:bg-indigo-800 transition hover:scale-105 text-white font-semibold text-lg rounded-md'>Shop
+                            Now</a>
+                        <a href=''
+                            class='px-4 py-2 bg-red-500 text-white font-semibold text-lg rounded-md text-center close'>Close</a>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+
+    {{-- <div class='popup-onload flex items-center justify-center w-full'>
         <div class='cnt223 bg-blue-100 mx-auto flex items-center justify-center shadow-2xl'>
 
             <div class="popup-content">
@@ -83,17 +112,20 @@
                 <p class='text-xl'>Our Products are now in <span class='font-extrabold text-2xl'>Amazon</span></p>
 
                 <div class='flex justify-center py-4 md:flex-row flex-col md:space-x-5 space-x-0 md:space-y-0 space-y-5 '>
-                    <a href="https://www.amazon.in/l/27943762031?me=A1NVCYOOHM6H4P" target="_blank" class='text-center px-4 py-2 bg-indigo-500 hover:bg-indigo-800 transition hover:scale-105 text-white font-semibold text-lg rounded-md'>Shop Now</a>
-                    <a href='' class='px-4 py-2 bg-red-500 text-white font-semibold text-lg rounded-md text-center close'>Close</a>
+                    <a href="https://www.amazon.in/l/27943762031?me=A1NVCYOOHM6H4P" target="_blank"
+                        class='text-center px-4 py-2 bg-indigo-500 hover:bg-indigo-800 transition hover:scale-105 text-white font-semibold text-lg rounded-md'>Shop
+                        Now</a>
+                    <a href=''
+                        class='px-4 py-2 bg-red-500 text-white font-semibold text-lg rounded-md text-center close'>Close</a>
                 </div>
 
 
 
 
-               
+
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- ====== Hero Section Start -->
     <div id='home' class="relative pt-[120px] lg:pt-[150px] pb-[110px] bg-white">
@@ -157,7 +189,7 @@
                             <a href="https://www.amazon.in/l/27943762031?me=A1NVCYOOHM6H4P" target="_blank"
                                 style="text-decoration: none;">
                                 <button
-                                    style="width: 200px; height: 50px; border-radius: 10px; background-color: #c7aed6; color: #fff; border: none; font-weight: bold; font-size: 26px;">
+                                    style="width: 180px; height: 50px; border-radius: 25px; background-color: #c8e8f3; color: black; font-weight: bold; font-size: 26px; border: 1px solid black;">
                                     Shop now
                                 </button>
                             </a>
@@ -239,7 +271,8 @@
 
                     <p class="text-gray-500 dark:text-gray-300">
                         The presence of negative ions (anions) in Lisa sanitary napkins is beneficial for combating
-                        odor-causing bacteria and maintaining the right pH balance. If you experience concerns about odor
+                        odor-causing bacteria and maintaining the right pH balance. If you experience concerns about
+                        odor
                         during menstruation, this technology is the right choice.
                     </p>
 
@@ -256,12 +289,16 @@
                         </svg>
                     </span>
 
-                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Extended Usage Time</h1>
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Extended Usage Time
+                    </h1>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        It's generally recommended to change pads every 4 hours to prevent harmful bacterial colonization
-                        and potential health hazards. There may be situations in which you might not change the napkin on
-                        time due to your respective activities. In such cases, Lisa will offer extended protection. However,
+                        It's generally recommended to change pads every 4 hours to prevent harmful bacterial
+                        colonization
+                        and potential health hazards. There may be situations in which you might not change the napkin
+                        on
+                        time due to your respective activities. In such cases, Lisa will offer extended protection.
+                        However,
                         practicing good hygiene and changing the pad on time is mandatory.
                     </p>
 
@@ -327,8 +364,10 @@
                         <div class="mt-4 md:mx-4 md:mt-0">
                             <p class="mt-0 text-gray-500 dark:text-gray-300">
                                 Experience Unmatched Comfort and Freshness with Anion Technology: Lisa sanitary napkins
-                                infused with the power of negative ions, known as anions, found in refreshing environments
-                                like waterfalls, forests, and oceans. We have harnessed this incredible technology to bring
+                                infused with the power of negative ions, known as anions, found in refreshing
+                                environments
+                                like waterfalls, forests, and oceans. We have harnessed this incredible technology to
+                                bring
                                 exceptional benefits during your menstrual cycle.
                             </p>
                         </div>
@@ -374,7 +413,8 @@
 
                             <p class=" text-gray-500 dark:text-gray-300">
                                 pH Balance for Optimal Comfort: Lisa's sanitary napkins maintain a balanced pH level,
-                                ensuring your intimate area stays healthy and irritation-free. You can rely on our pads to
+                                ensuring your intimate area stays healthy and irritation-free. You can rely on our pads
+                                to
                                 care for you during your period and focus on what matters the most.
                             </p>
                         </div>
@@ -397,7 +437,8 @@
 
                             <p class=" text-gray-500 dark:text-gray-300">
                                 Freshness Redefined: With our anion technology, experience fresh and unique revitalizing
-                                comfort and be at your best in what you engage in. Embrace your day with zeal, knowing that
+                                comfort and be at your best in what you engage in. Embrace your day with zeal, knowing
+                                that
                                 Lisa has your back.
                             </p>
                         </div>
@@ -419,7 +460,8 @@
                         <div class="mt-4 md:mx-4 md:mt-0">
 
                             <p class=" text-gray-500 dark:text-gray-300">
-                                Safe for You and the Environment: Lisa is made with natural materials, such as SAP - Aloe
+                                Safe for You and the Environment: Lisa is made with natural materials, such as SAP -
+                                Aloe
                                 Vera & Corn Pulp and Pure Cotton top sheet, making them biodegradable and eco-friendly.
                                 Therefore, you are prioritizing your health and the environment.
 
@@ -498,20 +540,24 @@
                             <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
                                 <div class="flex-1 flex justify-between items-center">
 
-                                    <div class="py-2 w-full rounded-lg bg-purple-300 px-2 text-center"><strong>Rash-Free
-                                            Assurance</strong></div>
+                                    <div class="py-2 w-full rounded-lg bg-purple-300 px-2 text-center">
+                                        <strong>Rash-Free
+                                            Assurance</strong>
+                                    </div>
                                 </div>
                             </div>
                             <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
                                 <div class="flex-1 flex justify-between items-center">
-                                    <div class="py-2 w-full rounded-lg bg-gray-300 px-2 text-center"><strong>Thin and Sleek
+                                    <div class="py-2 w-full rounded-lg bg-gray-300 px-2 text-center"><strong>Thin and
+                                            Sleek
                                             Design</strong>
                                     </div>
                                 </div>
                             </div>
                             <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
                                 <div class="flex-1 flex justify-between items-center">
-                                    <div class="py-2 w-full rounded-lg bg-purple-300 px-2 text-center"><strong>No More Side
+                                    <div class="py-2 w-full rounded-lg bg-purple-300 px-2 text-center"><strong>No More
+                                            Side
                                             Leakage</strong>
                                     </div>
                                 </div>
@@ -554,17 +600,20 @@
                 <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DESCRIPTION</h2>
                 <!-- Heading start -->
                 <div class="text-center mx-auto mb-4 lg:px-20">
-                    <h2 class="text-2xl leading-normal mb-2 font-bold text-black">Experience a Revolutionary Menstrual Care
+                    <h2 class="text-2xl leading-normal mb-2 font-bold text-black">Experience a Revolutionary Menstrual
+                        Care
                         with Lisa Anion Sanitary Napkins!</h2>
 
                     <div class="flex mt-6 justify-center mb-3">
                         <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                     </div>
-                    <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">We are delighted to present
+                    <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">We are delighted to
+                        present
                         our
                         revolutionary Anion Sanitary Napkins, designed to elevate your period experience to a new level.
                         Your
-                        comfort, protection, and freshness throughout your menstrual cycle are paramount to our innovative
+                        comfort, protection, and freshness throughout your menstrual cycle are paramount to our
+                        innovative
                         design and technology.</p>
                 </div>
             </div>
@@ -580,8 +629,10 @@
                             <h2 class="text-gray-900 text-lg title-font font-medium">Unmatched Comfort</h2>
                         </div>
                         <div class="flex-grow">
-                            <p class="leading-relaxed text-base">Lisa Anion Sanitary Napkins feature a super soft cotton
-                                top sheet, providing a gentle and luxurious touch against your skin. Embrace the comfort you
+                            <p class="leading-relaxed text-base">Lisa Anion Sanitary Napkins feature a super soft
+                                cotton
+                                top sheet, providing a gentle and luxurious touch against your skin. Embrace the comfort
+                                you
                                 deserve and say goodbye to rough and uneasy periods!</p>
 
                         </div>
@@ -598,7 +649,8 @@
                             <h2 class="text-gray-900 text-lg title-font font-medium">Rash-Free Assurance</h2>
                         </div>
                         <div class="flex-grow">
-                            <p class="leading-relaxed text-base">We crafted Lisa especially to be rash-free, ensuring your
+                            <p class="leading-relaxed text-base">We crafted Lisa especially to be rash-free, ensuring
+                                your
                                 well-being in our mind. Never worry about irritation or infection. Run a marathon, trek,
                                 ride, and be active during your day hassle-free.</p>
 
@@ -639,7 +691,8 @@
                         </div>
                         <div class="flex-grow">
                             <p class="leading-relaxed text-base">Feel confident and secure with our reliable leak
-                                protection. Lisa Anion Sanitary Napkins are crafted to fit perfectly and stay in place, so
+                                protection. Lisa Anion Sanitary Napkins are crafted to fit perfectly and stay in place,
+                                so
                                 you can go about your day without any side leakage concerns.
                             </p>
 
@@ -673,11 +726,14 @@
                                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
                                 <i class="fas fa-hand-holding-heart"></i>
                             </div>
-                            <h2 class="text-gray-900 text-lg title-font font-medium">Anion Technology for Extra Care</h2>
+                            <h2 class="text-gray-900 text-lg title-font font-medium">Anion Technology for Extra Care
+                            </h2>
                         </div>
                         <div class="flex-grow">
-                            <p class="leading-relaxed text-base">Anions naturally combat odor-causing bacteria, maintain a
-                                balanced pH level, and promote a fresh feeling throughout the day. With the power of anion
+                            <p class="leading-relaxed text-base">Anions naturally combat odor-causing bacteria,
+                                maintain a
+                                balanced pH level, and promote a fresh feeling throughout the day. With the power of
+                                anion
                                 technology, our napkins offer additional benefits beyond traditional sanitary napkins.
                             </p>
 
@@ -734,8 +790,10 @@
                             </span>
                         </div>
                         <div class="flex items-center py-2">
-                            <span class="text-gray-500"> Anion sanitary napkins utilize the presence of negative ions to
-                                help combat odor-causing bacteria. These ions can inhibit bacterial growth and minimize the
+                            <span class="text-gray-500"> Anion sanitary napkins utilize the presence of negative ions
+                                to
+                                help combat odor-causing bacteria. These ions can inhibit bacterial growth and minimize
+                                the
                                 unpleasant odor associated with menstruation.
                             </span>
 
@@ -754,7 +812,8 @@
                     </div>
                     <div>
                         <div class="flex items-center h-16">
-                            <span class="text-lg text-blue-600 font-bold">Are anion sanitary napkins safe to use?</span>
+                            <span class="text-lg text-blue-600 font-bold">Are anion sanitary napkins safe to
+                                use?</span>
                         </div>
                         <div class="flex items-center py-2">
                             <span class="text-gray-500"> Yes, anion sanitary napkins are safe to use. In any case of
@@ -779,8 +838,10 @@
                             <span class="text-lg text-blue-600 font-bold"> Can anion sanitary napkins irritate?</span>
                         </div>
                         <div class="flex items-center py-2">
-                            <span class="text-gray-500">Anion sanitary napkins are typically made with natural materials.
-                                It is soft and breathable. It reduces the chances of irritation. However, not everyone has
+                            <span class="text-gray-500">Anion sanitary napkins are typically made with natural
+                                materials.
+                                It is soft and breathable. It reduces the chances of irritation. However, not everyone
+                                has
                                 the same skin sensitivity, and some people may be more prone to irritation. If you
                                 experience any discomfort or irritation, discontinue use and consult a healthcare
                                 professional.</span>
@@ -804,8 +865,10 @@
                                 friendly?</span>
                         </div>
                         <div class="flex items-center py-2">
-                            <span class="text-gray-500"> Anion sanitary napkins are always being designed with eco-friendly
-                                considerations. We tend to look for products that use biodegradable or sustainable materials
+                            <span class="text-gray-500"> Anion sanitary napkins are always being designed with
+                                eco-friendly
+                                considerations. We tend to look for products that use biodegradable or sustainable
+                                materials
                                 and have minimal environmental impact. </span>
 
                         </div>
@@ -827,7 +890,8 @@
                                 overnight?</span>
                         </div>
                         <div class="flex items-center py-2">
-                            <span class="text-gray-500"> Yes, Anion sanitary napkins are safe to use overnight. It provides
+                            <span class="text-gray-500"> Yes, Anion sanitary napkins are safe to use overnight. It
+                                provides
                                 longer coverage and higher absorbency.
                             </span>
 
@@ -846,11 +910,13 @@
                     </div>
                     <div>
                         <div class="flex items-center h-16">
-                            <span class="text-lg text-blue-600 font-bold">Can anion sanitary napkins be used by individuals
+                            <span class="text-lg text-blue-600 font-bold">Can anion sanitary napkins be used by
+                                individuals
                                 with sensitive skin?</span>
                         </div>
                         <div class="flex items-center py-2">
-                            <span class="text-gray-500">Anion sanitary napkins are often dermatologically tested for safety
+                            <span class="text-gray-500">Anion sanitary napkins are often dermatologically tested for
+                                safety
                                 and suitable for sensitive skin. Some individuals may still experience sensitivities or
                                 allergies due to various skin types.
                                 <br><br>It is advisable to check the product's suitability or consult a healthcare
@@ -913,8 +979,10 @@
                             class="text-transparent font-normal bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300 "></span>
                     </h1>
                     <p class="text-gray-400 md:text-xl text-xl px-18">We wish to Revolutionising the Medical Textile
-                        Industry with seamless prospects. As our foundation, we have started our Voyage in Healthcare and
-                        Hygiene Products. With our own RND team for each sector, we will grow more stones to add a layer to
+                        Industry with seamless prospects. As our foundation, we have started our Voyage in Healthcare
+                        and
+                        Hygiene Products. With our own RND team for each sector, we will grow more stones to add a layer
+                        to
                         our genuine success.</p>
                     <a href="mailto:lisahealthcare01@gmail.com"
                         class="rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white text-lg py-4 px-6">Contact
@@ -941,21 +1009,25 @@
 
                     <ul class='list-disc'>
                         <li class="mt-5 sm:mt-10  text-gray-600 font-normal text-sm sm:text-lg">
-                            Currently, we are doing the necessary RND for sanitary napkins. We wanted to make "your days"
+                            Currently, we are doing the necessary RND for sanitary napkins. We wanted to make "your
+                            days"
                             easy
-                            as our first step. We are diving deep and finding appropriate solutions and materials to cope
+                            as our first step. We are diving deep and finding appropriate solutions and materials to
+                            cope
                             with
                             our projects. </li>
 
                         <li class="mt-5 sm:mt-10  text-gray-600 font-normal  text-sm sm:text-lg">
-                            With our Anion Sanitary Napkins, you will experience a whole new level of comfort and safety for
+                            With our Anion Sanitary Napkins, you will experience a whole new level of comfort and safety
+                            for
                             you
                             and the environment. We are working towards individual disposable bags along with Sanitary
                             Napkins.
                         </li>
 
                         <li class="mt-5 sm:mt-10  text-gray-600 font-normal text-sm sm:text-lg">As
-                            you read this, we are undertaking a new project. We build, break, bury, and burn to validate the
+                            you read this, we are undertaking a new project. We build, break, bury, and burn to validate
+                            the
                             benefits. Let Lisa take care of you!</li>
                     </ul>
                 </div>
@@ -968,7 +1040,8 @@
     <div id='contact' class="py-4 text-white" style="background-color: #c7aed6">
         <div class="container mx-auto flex flex-col md:flex-row my-12 md:my-10">
             <div class="flex flex-col w-full lg:w-2/5 p-8">
-                <p class="text-3xl md:text-5xl text-gray-50 my-4 leading-relaxed md:leading-snug">Registered Address</p>
+                <p class="text-3xl md:text-5xl text-gray-50 my-4 leading-relaxed md:leading-snug">Registered Address
+                </p>
                 <p class="font-sans text-sm md:text-lg my-2 md:my-4"><svg class="inline-block fill-current mr-2"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path

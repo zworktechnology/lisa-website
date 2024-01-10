@@ -18,6 +18,12 @@
             <p class="text-sm text-gray-500">© Copyright 2021. All Rights Reserved.</p>
 
             <div class="flex mt-3 -mx-2 sm:mt-0">
+                <a href="/terms_and_condition" rel="noopener"
+                    class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-blue-600 dark:hover:text-gray-300"
+                    aria-label="Reddit"> Terms and Conditions </a>
+                <a href="/privacy_policy"  rel="noopener"
+                    class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-blue-600 dark:hover:text-gray-300"
+                    aria-label="Reddit"> Privacy Policy </a>
                 <a href="https://www.facebook.com/profile.php?id=100092315981533&mibextid=ZbWKwL" target="_blank"
                     rel="noopener"
                     class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-blue-600 dark:hover:text-gray-300"

@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/terms_and_condition', function () {
+    return view('terms');
+});
+
+Route::get('/privacy_policy', function () {
+    return view('privacy_policy');
+});
